@@ -6,6 +6,14 @@
 
 ![](http://p3alsaatj.bkt.clouddn.com/20180921175102_fqhyOF_Jietu20180921-175005.jpeg)
 
+## Features
+
+- no dependencies
+- very small
+- support chinese character
+- support custom colors
+- support node and browser
+
 ## Install
 
 ```
