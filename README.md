@@ -8,6 +8,8 @@
 
 ## Features
 
+[see online demo](https://wdd.js.org/shields-less/example/)
+
 - no dependencies
 - very small
 - support chinese character
