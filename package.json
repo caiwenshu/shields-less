@@ -1,9 +1,9 @@
 {
-  "name": "shield-less",
+  "name": "shields-less",
   "version": "0.1.0",
   "description": "The badge making code extracted from the original badges/shields project",
   "main": "./src/index.js",
-  "repository": "https://github.com/wangduanduan/make-badge",
+  "repository": "https://github.com/wangduanduan/shields-less",
   "scripts": {
     "test": "jest"
   },

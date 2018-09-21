@@ -3,25 +3,25 @@
 ## Install
 
 ```
-npm install shields-lightweight
+npm install shields-less
 ```
 
 ## Usage
 
 ```
-var makeBadge = require('make-badge')
-var svgBadge = makeBadge({
+var shieldsLess = require('shields-less')
+var svgBadge = shieldsLess({
     leftText: 'npm 黄河远上白云间',
     rightText: 'hello 世界'
 })
 
-var svgBadge2 = makeBadge({
+var svgBadge2 = shieldsLess({
     leftText: 'npm 黄河远上白云间',
     rightText: 'hello 世界',
     style: 'square'
 })
 
-var svgBadge2 = makeBadge({
+var svgBadge2 = shieldsLess({
     leftText: 'npm 黄河远上白云间',
     rightText: 'hello 世界',
     leftColor: '#e64a19',
