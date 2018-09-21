@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../dist/shields-less.js"></script>
+</head>
+
+<body>
+  <div id="show">
+
+  </div>
+  <script>
+    var app = document.getElementById('show')
+    var svgBadge0 = shieldsLess.svg({
+      leftText: 'npm',
+      rightText: 'v2.3.4'
+    })
+    app.insertAdjacentHTML('beforeend', svgBadge0 + '</br>')
+
+    var svgBadge1 = shieldsLess.svg({
+      leftText: '圆角的：黄河远上白云间',
+      rightText: '一片孤城万仞山'
+    })
+    app.insertAdjacentHTML('beforeend', svgBadge1 + '</br>')
+
+    var svgBadge2 = shieldsLess.svg({
+      leftText: '方角的：世界',
+      rightText: 'hello 世界',
+      style: 'square'
+    })
+    app.insertAdjacentHTML('beforeend', svgBadge2 + '</br>')
+
+    var svgBadge3 = shieldsLess.svg({
+      leftText: '(彩色的) 黄河远上白云间',
+      rightText: 'hello 世界',
+      leftColor: '#e64a19',
+      rightColor: '#448aff',
+      style: 'square' // jest two style: square and plat(default)
+    })
+    app.insertAdjacentHTML('beforeend', svgBadge3 + '</br>')
+
+    var svgBadge4 = shieldsLess.svg({
+      leftText: '(彩色的) 黄河远上白云间',
+      rightText: 'hello 世界',
+      leftColor: '#00796b',
+      rightColor: '#ffc107',
+      style: 'square' // jest two style: square and plat(default)
+    })
+    app.insertAdjacentHTML('beforeend', svgBadge4 + '</br>')
+  </script>
+</body>
+
+</html>

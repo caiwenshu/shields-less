@@ -10,18 +10,18 @@ npm install shields-less
 
 ```
 var shieldsLess = require('shields-less')
-var svgBadge = shieldsLess({
+var svgBadge = shieldsLess.svg({
     leftText: 'npm 黄河远上白云间',
     rightText: 'hello 世界'
 })
 
-var svgBadge2 = shieldsLess({
+var svgBadge2 = shieldsLess.svg({
     leftText: 'npm 黄河远上白云间',
     rightText: 'hello 世界',
     style: 'square'
 })
 
-var svgBadge2 = shieldsLess({
+var svgBadge2 = shieldsLess.svg({
     leftText: 'npm 黄河远上白云间',
     rightText: 'hello 世界',
     leftColor: '#e64a19',

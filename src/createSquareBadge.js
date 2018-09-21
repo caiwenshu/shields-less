@@ -1,4 +1,4 @@
-module.exports = function ({
+export default function ({
   leftWidth = 0,
   leftText = '',
   leftColor = '#555',

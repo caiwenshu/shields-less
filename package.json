@@ -2,10 +2,12 @@
   "name": "shields-less",
   "version": "0.1.0",
   "description": "The badge making code extracted from the original badges/shields project",
-  "main": "./src/index.js",
+  "main": "./dist/shields-less.js",
+  "module": "./src/index.js",
   "repository": "https://github.com/wangduanduan/shields-less",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "badge",
@@ -15,6 +17,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
   }
 }
