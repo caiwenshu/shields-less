@@ -1,6 +1,6 @@
 {
   "name": "shields-less",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The badge making code extracted from the original badges/shields project",
   "main": "./dist/shields-less.js",
   "module": "./src/index.js",
