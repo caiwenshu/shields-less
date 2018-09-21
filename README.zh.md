@@ -8,23 +8,23 @@
 
 ![](./img/demo.jpg)
 
-## Features
+## 特点
 
-[see online demo](https://wdd.js.org/shields-less/example/)
+[查看在线demo](https://wdd.js.org/shields-less/example/)
 
-- no dependencies
-- very small
-- support chinese character
-- support custom colors
-- support node and browser
+- 无依赖
+- 非常小
+- 支持中文，不会溢出
+- 支持自定义颜色
+- 支持Node和浏览器环境
 
-## Install
+## 安装
 
 ```
 npm install shields-less
 ```
 
-## Usage
+## 使用
 
 ```
 var shieldsLess = require('shields-less')
@@ -48,7 +48,7 @@ var svgBadge2 = shieldsLess.svg({
 })
 ```
 
-**then you will get svg string**
+**你会获得如下字符串**
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="188" height="20">
