@@ -4,7 +4,7 @@
 
 ![](https://img.shields.io/badge/code_style-standard-brightgreen.svg) [![](https://img.shields.io/badge/node-%3E%3D8.0.0-brightgreen.svg)]() ![npm](https://img.shields.io/npm/v/shields-less.svg) ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-![](http://p3alsaatj.bkt.clouddn.com/20180921175102_fqhyOF_Jietu20180921-175005.jpeg)
+![](./img/demo.jpg)
 
 ## Features
 
