@@ -5,8 +5,8 @@ module.exports = {
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
   <rect rx="3" width="188" height="20" fill="#555"/>
-  <rect rx="3" x="118" width="70" height="20" fill="#97CA00"/>
-  <rect x="118" width="4" height="20" fill="#97CA00"/>
+  <rect rx="3" x="118" width="70" height="20" fill="#44cc11"/>
+  <rect x="118" width="4" height="20" fill="#44cc11"/>
   <rect rx="3" width="188" height="20" fill="url(#smooth)"/>
   <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
     <text x="60" y="15" fill="#010101" fill-opacity=".3">npm 黄河远上白云间</text>

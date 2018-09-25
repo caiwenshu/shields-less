@@ -4,7 +4,7 @@ export default function ({
   leftClolor = '#555',
   rightWidth = 0,
   rightText = '',
-  rightColor = '#97CA00'
+  rightColor = '#44cc11'
 }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${leftWidth + rightWidth}" height="20">
   <linearGradient id="smooth" x2="0" y2="100%">

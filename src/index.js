@@ -7,7 +7,7 @@ export function svg ({
   leftText = 'none',
   leftColor = '#555',
   rightText = 'none',
-  rightColor = '#97CA00',
+  rightColor,
   style = 'plat'
 }) {
   leftText = escapeXml(leftText)
