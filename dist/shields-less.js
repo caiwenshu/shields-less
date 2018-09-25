@@ -7,7 +7,7 @@
 		exports["shieldsLess"] = factory();
 	else
 		root["shieldsLess"] = factory();
-})(window, function() {
+})((typeof window !== 'undefined' ? window : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
