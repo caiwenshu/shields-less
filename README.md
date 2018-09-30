@@ -44,7 +44,7 @@ var svgBadge2 = shieldsLess.svg({
     rightText: 'hello 世界',
     leftColor: '#e64a19',
     rightColor: '#448aff',
-    style: 'square' // jest two style: square and plat(default)
+    style: 'square' // just two style: square and plat(default)
 })
 ```
 
